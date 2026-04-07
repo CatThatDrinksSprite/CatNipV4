@@ -2925,7 +2925,7 @@ run(function()
 				fflag = nil
 			end
 		end,
-		Tooltip = 'Lets you Phase/Clip through walls. (Hold shift to use Phase over spider)'
+		Tooltip = 'Lets you Phase/Clip through walls. (Hold shift to use Phase over spider) (ONLY IF YOUR USING FFLAG MOD: WARNING THIS WILL BAN YOUR ACCOUNT UNLESS YOU USE VOLT, DUE TO USING SETFFLAG)'
 	})
 	Mode = Phase:CreateDropdown({
 		Name = 'Mode',
@@ -3468,7 +3468,7 @@ run(function()
 				end))
 			end
 		end,
-		Tooltip = 'Change the game speed.'
+		Tooltip = 'Change the game speed. (WARNING THIS WILL BAN YOUR ACCOUNT UNLESS YOU USE VOLT, DUE TO USING SETFFLAG)'
 	})
 	Value = Timer:CreateSlider({
 		Name = 'Value',
@@ -6089,7 +6089,7 @@ run(function()
 				oldphys, oldsend = nil, nil
 			end
 		end,
-		Tooltip = 'Chokes packets until disabled.'
+		Tooltip = 'Chokes packets until disabled. (WARNING THIS WILL BAN YOUR ACCOUNT UNLESS YOU USE VOLT, DUE TO USING SETFFLAG)'
 	})
 	Type = Blink:CreateDropdown({
 		Name = 'Type',
